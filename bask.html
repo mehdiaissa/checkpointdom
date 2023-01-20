@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bask.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+<header>
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>resto</a>
+    <div class="cotainer"></div>
+<div id="root"></div>
+<div class="sidebar"></div>
+<div class="head"><p>my cart</p></div>
+<div id="cartitem">your cart is empty</div>
+<div class="foot">
+<h3>TOTAL</h3>
+<h1 id="total">0.00</H1>
+</div>
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search"></i>
+        <a href="#"class="fas fa-heart"></a>
+        <a href="pagnier.html" class="fas fa-shopping-cart"></a>
+    </div>
+</header>
+
+
+<section class="dishes" id="dishes">
+    <h3 class="sub-heading">our dishes</h3>
+    <h1 class="heading">popular dishes</h1>
+<div class="box-container">
+
+ <div  class="box">
+    <a href="#" class="fas fa-heart" onclick="toggleColor(this)"></a>
+    <a href="#" class="fas fa-eye" ></a>
+    <img src="burger.webp" alt="">
+    <h3>testy food</h3>
+<div class="starts">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+     </div>
+     <span>15.500</span>
+     <a href="#" class="btn">add to cart</a>
+     <i class="fa fa-trash" id="suprimer"></i>
+     <form>
+        <input type="number" value="1" min="1" class="qantitebtn">
+        
+     </form>
+ </div>
+
+  <div  class="box">
+    <a href="#" class="fas fa-heart" onclick="toggleColor(this)"></a>
+    <a href="#" class="fas fa-eye"></a>
+    <img src="pitza.webp" alt="">
+    <h3>testy food</h3>
+<div class="starts">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+     </div>
+     </p><span>15.500</span>
+     <a href="#" class="btn">add to cart</a>
+     <i class="fa fa-trash" id="suprimer"></i>
+     <form>
+        <input type="number" value="1" min="1" class="qantitebtn">
+     </form>
+ </div>
+ <div  class="box">
+    <a href="#" class="fas fa-heart" onclick="toggleColor(this)"></a>
+    <a href="#" class="fas fa-eye"></a>
+    <img src="makloub.webp" alt="">
+    <h3>testy food</h3>
+<div class="starts">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+     </div>
+     <span>15.500</span>
+     <a href="#" class="btn">add to cart</a>
+     <i class="fa fa-trash" id="suprimer"></i>
+     <form>
+        <input type="number" value="1" min="1" class="qantitebtn">
+     </form>
+ </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="bask.js"></script>
+</body>
+</html>
